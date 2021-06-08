@@ -83,8 +83,6 @@ function dogYears(age){
   return age * 7;
 }
 
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Dog feeder - Depending on their weight and age, we need to know how many pounds of food to feed our dog each day!
@@ -132,8 +130,6 @@ function hungryDog(weight, age){
   }
 }
 
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 // Rock, Paper, Scissors - Let's play against the computer!
@@ -155,9 +151,21 @@ Use the game function below to do the following:
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
+// var randomNumber = Math.random();
+
 function game(user, computer){
-    /*add your code here*/
-}
+//   let computer = randomNumber;
+//   if(computer <= 0.33){
+//     computer = "Rock";
+//   }else if(computer <= 0.66){
+//     computer = "Paper";
+//   }else{
+//     computer = "Scissor";
+//   }
+//   if(user === "Rock" || "rock" && computer === "Paper"){
+    
+//   }
+  }
   
   
 
@@ -172,11 +180,9 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+    return km * 0.621371;
   }
-
-
 
 //Task 5b - Feet to CM
 /*
@@ -186,10 +192,9 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
-  }
- 
+function feet(cm){
+  return cm / 30.48;
+}
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
