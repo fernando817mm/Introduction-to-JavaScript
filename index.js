@@ -34,12 +34,13 @@ Do the following:
    HINT: no function required
 */
 
-let name = "Fernando"
-let secondName = "Mauricio"
-name = secondName;
+let name = "Fernando";
+let secondName = "Mauricio";
+if(name === "Fernando"){
+  name = secondName;
+}
+
 console.log(name);
-
-
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -52,8 +53,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let date = "1999";
+console.log(parseInt(date));
 
 /*
 Task 1d - Multiply
@@ -64,11 +65,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a * b;
   }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -80,8 +79,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age){
+  return age * 7;
 }
 
 
